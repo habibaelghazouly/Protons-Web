@@ -55,6 +55,13 @@ console.log("Colors:", colors);
 console.log("X :", x);
 console.log("Array:", arr);
 
+let firstName = "Jane";
+let lastName = "Smith";
+
+// String concatenation using +
+let fullName = firstName + " " + lastName;
+console.log("Full Name :", fullName);
+
 
 // Summary: 
 // Use 'let' for variables that will change,
