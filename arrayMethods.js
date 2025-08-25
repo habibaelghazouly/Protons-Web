@@ -36,6 +36,7 @@ const doubled = nums.map(n => n * 2); // [2, 4, 6, 8, 10]
 const evens = nums.filter(n => n % 2 === 0); // [2, 4]
 
 // reduce: Sums all values in the array
+// reduce(callbackFunction , intialValue)
 const sum = nums.reduce((acc, n) => acc + n, 0); // 15
 
 // forEach: Iterates over each value and accumulates the sum in totalForEach
